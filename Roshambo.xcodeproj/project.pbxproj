@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		67A88D282055D0F30035DBF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A88D272055D0F30035DBF4 /* AppDelegate.swift */; };
-		67A88D2A2055D0F30035DBF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A88D292055D0F30035DBF4 /* ViewController.swift */; };
+		67A88D2A2055D0F30035DBF4 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A88D292055D0F30035DBF4 /* ResultsViewController.swift */; };
 		67A88D2D2055D0F30035DBF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A88D2B2055D0F30035DBF4 /* Main.storyboard */; };
 		67A88D2F2055D0F30035DBF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A88D2E2055D0F30035DBF4 /* Assets.xcassets */; };
 		67A88D322055D0F30035DBF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A88D302055D0F30035DBF4 /* LaunchScreen.storyboard */; };
+		67A88D3C20560FB00035DBF4 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A88D3B20560FB00035DBF4 /* SelectionViewController.swift */; };
+		67A88D3E205621630035DBF4 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A88D3D205621630035DBF4 /* Play.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		67A88D242055D0F30035DBF4 /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A88D272055D0F30035DBF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		67A88D292055D0F30035DBF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67A88D292055D0F30035DBF4 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		67A88D2C2055D0F30035DBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67A88D2E2055D0F30035DBF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67A88D312055D0F30035DBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67A88D332055D0F30035DBF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A88D3B20560FB00035DBF4 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		67A88D3D205621630035DBF4 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				67A88D272055D0F30035DBF4 /* AppDelegate.swift */,
-				67A88D292055D0F30035DBF4 /* ViewController.swift */,
+				67A88D292055D0F30035DBF4 /* ResultsViewController.swift */,
+				67A88D3B20560FB00035DBF4 /* SelectionViewController.swift */,
+				67A88D3D205621630035DBF4 /* Play.swift */,
 				67A88D2B2055D0F30035DBF4 /* Main.storyboard */,
 				67A88D2E2055D0F30035DBF4 /* Assets.xcassets */,
 				67A88D302055D0F30035DBF4 /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67A88D2A2055D0F30035DBF4 /* ViewController.swift in Sources */,
+				67A88D2A2055D0F30035DBF4 /* ResultsViewController.swift in Sources */,
+				67A88D3C20560FB00035DBF4 /* SelectionViewController.swift in Sources */,
 				67A88D282055D0F30035DBF4 /* AppDelegate.swift in Sources */,
+				67A88D3E205621630035DBF4 /* Play.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
